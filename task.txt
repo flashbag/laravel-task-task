@@ -1,0 +1,19 @@
+1. Set up the latest Laravel. This should be done on a branch 'master'
+
+2. Create a blog on its base (any blog from the internet can be used, or you can write a basic one yourself). Blog post should consist of at least 2 fields - title and body. This should be done as a separate branch 'laravel_blog'.
+
+3. On the article edit page there should be two buttons ( this should be a separate branch 'image_buttons' with 'laravel_blog' as a base):
+'search image' button, that searches random image on the internet (you can use any API you like, for example, https://pixabay.com/api/docs/#api_search_images) by the title of the post, and shows one without a page reload. Each time you click it - a random picture from API should be displayed next to it.
+'insert image' button inserts an image tag with an image that was 'found' by the first button at the beginning of the body of the post.
+
+
+So, in the end, there should be 3 branches:
+
+image_buttons
+|
+laravel_blog
+|
+master
+
+Laravel tools must be used as much as possible.
+Provide the result as a git repository (in github or bitbucket).
