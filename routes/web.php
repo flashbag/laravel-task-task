@@ -22,4 +22,6 @@ Route::group([
 	Route::resource('posts', 'PostController');
 });
 
+Route::get('/pixabay-search', 'PixabayController@searchImage')->name('search-image');
+
 Route::get('/', 'HomeController@index')->name('home');
